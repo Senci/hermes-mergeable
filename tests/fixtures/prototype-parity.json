@@ -1,0 +1,1281 @@
+{
+ "source": {
+  "file": "index.html",
+  "sha256": "ce9106147ca8a5d61e488830f1a55a813e056d42aff9f41c5219f469900432bd",
+  "generated_at": "2026-10-23T10:26:06+00:00"
+ },
+ "refs": [
+  "acme/alpha-app!16",
+  "acme/alpha-app!27",
+  "acme/alpha-app!98",
+  "acme/bravo-infra!347",
+  "acme/bravo-infra!370",
+  "acme/bravo-infra!393",
+  "acme/bravo-infra!394",
+  "acme/bravo-infra!396",
+  "acme/charlie-crm!19",
+  "acme/delta-setup!16",
+  "acme/echo-deploy!148",
+  "acme/echo-deploy!489",
+  "acme/foxtrot-platform!64",
+  "acme/foxtrot-platform!78",
+  "acme/foxtrot-platform!83",
+  "acme/foxtrot-platform!84",
+  "acme/foxtrot-platform!87",
+  "acme/foxtrot-platform!95",
+  "acme/golf-classifier!70",
+  "acme/hotel-erp!1",
+  "acme/india-analytics!12",
+  "ops/provisioning/mgmt/mirror!1"
+ ],
+ "counts": {
+  "all": 22,
+  "mine": 14,
+  "renovate": 3,
+  "colleagues": 5
+ },
+ "combos": [
+  {
+   "filter": "all",
+   "sort": "urgency",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/bravo-infra!396",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/india-analytics!12",
+    "acme/golf-classifier!70",
+    "acme/foxtrot-platform!64",
+    "acme/echo-deploy!148",
+    "acme/bravo-infra!347",
+    "acme/delta-setup!16",
+    "acme/bravo-infra!393",
+    "acme/alpha-app!16",
+    "acme/alpha-app!27",
+    "acme/alpha-app!98"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "urgency",
+   "drafts": true,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/bravo-infra!396",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/india-analytics!12",
+    "acme/echo-deploy!148",
+    "acme/bravo-infra!347",
+    "acme/delta-setup!16",
+    "acme/bravo-infra!393"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "urgency",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/bravo-infra!396",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/india-analytics!12",
+    "acme/golf-classifier!70",
+    "acme/foxtrot-platform!64"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "urgency",
+   "drafts": false,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/bravo-infra!396",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "age",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/foxtrot-platform!64",
+    "acme/echo-deploy!148",
+    "acme/alpha-app!16",
+    "acme/alpha-app!27",
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/alpha-app!98",
+    "acme/bravo-infra!347",
+    "acme/foxtrot-platform!87",
+    "acme/bravo-infra!370",
+    "acme/delta-setup!16",
+    "acme/bravo-infra!393",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/golf-classifier!70",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "age",
+   "drafts": true,
+   "colleagues": false,
+   "ids": [
+    "acme/echo-deploy!148",
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/bravo-infra!347",
+    "acme/foxtrot-platform!87",
+    "acme/bravo-infra!370",
+    "acme/delta-setup!16",
+    "acme/bravo-infra!393",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "age",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "acme/foxtrot-platform!64",
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/golf-classifier!70",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "age",
+   "drafts": false,
+   "colleagues": false,
+   "ids": [
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "project",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/alpha-app!16",
+    "acme/alpha-app!27",
+    "acme/alpha-app!98",
+    "acme/bravo-infra!347",
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!393",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396",
+    "acme/charlie-crm!19",
+    "acme/delta-setup!16",
+    "acme/echo-deploy!148",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!64",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/foxtrot-platform!95",
+    "acme/golf-classifier!70",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12",
+    "ops/provisioning/mgmt/mirror!1"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "project",
+   "drafts": true,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!347",
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!393",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396",
+    "acme/charlie-crm!19",
+    "acme/delta-setup!16",
+    "acme/echo-deploy!148",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12",
+    "ops/provisioning/mgmt/mirror!1"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "project",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!64",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/foxtrot-platform!95",
+    "acme/golf-classifier!70",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12",
+    "ops/provisioning/mgmt/mirror!1"
+   ]
+  },
+  {
+   "filter": "all",
+   "sort": "project",
+   "drafts": false,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12",
+    "ops/provisioning/mgmt/mirror!1"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "urgency",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/india-analytics!12",
+    "acme/echo-deploy!148",
+    "acme/bravo-infra!347",
+    "acme/delta-setup!16",
+    "acme/bravo-infra!393"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "urgency",
+   "drafts": true,
+   "colleagues": false,
+   "ids": [
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/india-analytics!12",
+    "acme/echo-deploy!148",
+    "acme/bravo-infra!347",
+    "acme/delta-setup!16",
+    "acme/bravo-infra!393"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "urgency",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "urgency",
+   "drafts": false,
+   "colleagues": false,
+   "ids": [
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "age",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/echo-deploy!148",
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/bravo-infra!347",
+    "acme/foxtrot-platform!87",
+    "acme/delta-setup!16",
+    "acme/bravo-infra!393",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "age",
+   "drafts": true,
+   "colleagues": false,
+   "ids": [
+    "acme/echo-deploy!148",
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/bravo-infra!347",
+    "acme/foxtrot-platform!87",
+    "acme/delta-setup!16",
+    "acme/bravo-infra!393",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "age",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "age",
+   "drafts": false,
+   "colleagues": false,
+   "ids": [
+    "ops/provisioning/mgmt/mirror!1",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "project",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/bravo-infra!347",
+    "acme/bravo-infra!393",
+    "acme/charlie-crm!19",
+    "acme/delta-setup!16",
+    "acme/echo-deploy!148",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12",
+    "ops/provisioning/mgmt/mirror!1"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "project",
+   "drafts": true,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!347",
+    "acme/bravo-infra!393",
+    "acme/charlie-crm!19",
+    "acme/delta-setup!16",
+    "acme/echo-deploy!148",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12",
+    "ops/provisioning/mgmt/mirror!1"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "project",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12",
+    "ops/provisioning/mgmt/mirror!1"
+   ]
+  },
+  {
+   "filter": "mine",
+   "sort": "project",
+   "drafts": false,
+   "colleagues": false,
+   "ids": [
+    "acme/charlie-crm!19",
+    "acme/echo-deploy!489",
+    "acme/foxtrot-platform!78",
+    "acme/foxtrot-platform!83",
+    "acme/foxtrot-platform!84",
+    "acme/foxtrot-platform!87",
+    "acme/foxtrot-platform!95",
+    "acme/hotel-erp!1",
+    "acme/india-analytics!12",
+    "ops/provisioning/mgmt/mirror!1"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "urgency",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "urgency",
+   "drafts": true,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "urgency",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "urgency",
+   "drafts": false,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "age",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "age",
+   "drafts": true,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "age",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "age",
+   "drafts": false,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "project",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "project",
+   "drafts": true,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "project",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "renovate",
+   "sort": "project",
+   "drafts": false,
+   "colleagues": false,
+   "ids": [
+    "acme/bravo-infra!370",
+    "acme/bravo-infra!394",
+    "acme/bravo-infra!396"
+   ]
+  },
+  {
+   "filter": "colleagues",
+   "sort": "urgency",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/golf-classifier!70",
+    "acme/foxtrot-platform!64",
+    "acme/alpha-app!16",
+    "acme/alpha-app!27",
+    "acme/alpha-app!98"
+   ]
+  },
+  {
+   "filter": "colleagues",
+   "sort": "urgency",
+   "drafts": true,
+   "colleagues": false,
+   "ids": []
+  },
+  {
+   "filter": "colleagues",
+   "sort": "urgency",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "acme/golf-classifier!70",
+    "acme/foxtrot-platform!64"
+   ]
+  },
+  {
+   "filter": "colleagues",
+   "sort": "urgency",
+   "drafts": false,
+   "colleagues": false,
+   "ids": []
+  },
+  {
+   "filter": "colleagues",
+   "sort": "age",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/foxtrot-platform!64",
+    "acme/alpha-app!16",
+    "acme/alpha-app!27",
+    "acme/alpha-app!98",
+    "acme/golf-classifier!70"
+   ]
+  },
+  {
+   "filter": "colleagues",
+   "sort": "age",
+   "drafts": true,
+   "colleagues": false,
+   "ids": []
+  },
+  {
+   "filter": "colleagues",
+   "sort": "age",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "acme/foxtrot-platform!64",
+    "acme/golf-classifier!70"
+   ]
+  },
+  {
+   "filter": "colleagues",
+   "sort": "age",
+   "drafts": false,
+   "colleagues": false,
+   "ids": []
+  },
+  {
+   "filter": "colleagues",
+   "sort": "project",
+   "drafts": true,
+   "colleagues": true,
+   "ids": [
+    "acme/alpha-app!16",
+    "acme/alpha-app!27",
+    "acme/alpha-app!98",
+    "acme/foxtrot-platform!64",
+    "acme/golf-classifier!70"
+   ]
+  },
+  {
+   "filter": "colleagues",
+   "sort": "project",
+   "drafts": true,
+   "colleagues": false,
+   "ids": []
+  },
+  {
+   "filter": "colleagues",
+   "sort": "project",
+   "drafts": false,
+   "colleagues": true,
+   "ids": [
+    "acme/foxtrot-platform!64",
+    "acme/golf-classifier!70"
+   ]
+  },
+  {
+   "filter": "colleagues",
+   "sort": "project",
+   "drafts": false,
+   "colleagues": false,
+   "ids": []
+  }
+ ],
+ "table": [
+  "acme/bravo-infra!370",
+  "acme/bravo-infra!394",
+  "ops/provisioning/mgmt/mirror!1",
+  "acme/charlie-crm!19",
+  "acme/echo-deploy!489",
+  "acme/foxtrot-platform!95",
+  "acme/hotel-erp!1",
+  "acme/bravo-infra!396",
+  "acme/foxtrot-platform!78",
+  "acme/foxtrot-platform!83",
+  "acme/foxtrot-platform!84",
+  "acme/foxtrot-platform!87",
+  "acme/india-analytics!12",
+  "acme/golf-classifier!70",
+  "acme/foxtrot-platform!64",
+  "acme/echo-deploy!148",
+  "acme/bravo-infra!347",
+  "acme/delta-setup!16",
+  "acme/bravo-infra!393",
+  "acme/alpha-app!16",
+  "acme/alpha-app!27",
+  "acme/alpha-app!98"
+ ],
+ "urgency": {
+  "acme/alpha-app!16": 120,
+  "acme/alpha-app!27": 120,
+  "acme/alpha-app!98": 120,
+  "acme/bravo-infra!347": 90,
+  "acme/bravo-infra!370": 27,
+  "acme/bravo-infra!393": 90,
+  "acme/bravo-infra!394": 27,
+  "acme/bravo-infra!396": 39,
+  "acme/charlie-crm!19": 30,
+  "acme/delta-setup!16": 90,
+  "acme/echo-deploy!148": 90,
+  "acme/echo-deploy!489": 30,
+  "acme/foxtrot-platform!64": 75,
+  "acme/foxtrot-platform!78": 45,
+  "acme/foxtrot-platform!83": 45,
+  "acme/foxtrot-platform!84": 45,
+  "acme/foxtrot-platform!87": 45,
+  "acme/foxtrot-platform!95": 30,
+  "acme/golf-classifier!70": 60,
+  "acme/hotel-erp!1": 30,
+  "acme/india-analytics!12": 45,
+  "ops/provisioning/mgmt/mirror!1": 30
+ },
+ "ages": [
+  {
+   "d": 0,
+   "label": "today",
+   "cls": "age"
+  },
+  {
+   "d": 0.5,
+   "label": "today",
+   "cls": "age"
+  },
+  {
+   "d": 1,
+   "label": "1d",
+   "cls": "age"
+  },
+  {
+   "d": 5,
+   "label": "5d",
+   "cls": "age"
+  },
+  {
+   "d": 13,
+   "label": "13d",
+   "cls": "age"
+  },
+  {
+   "d": 14,
+   "label": "2w",
+   "cls": "age"
+  },
+  {
+   "d": 20,
+   "label": "3w",
+   "cls": "age"
+  },
+  {
+   "d": 29,
+   "label": "4w",
+   "cls": "age"
+  },
+  {
+   "d": 30,
+   "label": "4w",
+   "cls": "age"
+  },
+  {
+   "d": 31,
+   "label": "4w",
+   "cls": "age old"
+  },
+  {
+   "d": 59,
+   "label": "8w",
+   "cls": "age old"
+  },
+  {
+   "d": 60,
+   "label": "2mo",
+   "cls": "age old"
+  },
+  {
+   "d": 89,
+   "label": "3mo",
+   "cls": "age old"
+  },
+  {
+   "d": 90,
+   "label": "3mo",
+   "cls": "age old"
+  },
+  {
+   "d": 91,
+   "label": "3mo",
+   "cls": "age stale"
+  },
+  {
+   "d": 120,
+   "label": "4mo",
+   "cls": "age stale"
+  },
+  {
+   "d": 400,
+   "label": "13mo",
+   "cls": "age stale"
+  }
+ ],
+ "chips": {
+  "acme/alpha-app!16": [
+   [
+    "muted",
+    "draft"
+   ],
+   [
+    "outline",
+    "deckard"
+   ]
+  ],
+  "acme/alpha-app!27": [
+   [
+    "muted",
+    "draft"
+   ],
+   [
+    "outline",
+    "deckard"
+   ]
+  ],
+  "acme/alpha-app!98": [
+   [
+    "muted",
+    "draft"
+   ],
+   [
+    "outline",
+    "deckard"
+   ]
+  ],
+  "acme/bravo-infra!347": [
+   [
+    "muted",
+    "draft"
+   ]
+  ],
+  "acme/bravo-infra!370": [
+   [
+    "default",
+    ""
+   ],
+   [
+    "destructive",
+    "high"
+   ],
+   [
+    "destructive",
+    "hard"
+   ],
+   [
+    "warn",
+    "opus"
+   ],
+   [
+    "outline",
+    "?"
+   ],
+   [
+    "warn",
+    "rebase"
+   ]
+  ],
+  "acme/bravo-infra!393": [
+   [
+    "muted",
+    "draft"
+   ]
+  ],
+  "acme/bravo-infra!394": [
+   [
+    "default",
+    ""
+   ],
+   [
+    "destructive",
+    "high"
+   ],
+   [
+    "success",
+    "trivial"
+   ],
+   [
+    "success",
+    "batch"
+   ],
+   [
+    "warn",
+    "rebase"
+   ]
+  ],
+  "acme/bravo-infra!396": [
+   [
+    "default",
+    ""
+   ],
+   [
+    "muted",
+    "low"
+   ],
+   [
+    "success",
+    "trivial"
+   ],
+   [
+    "warn",
+    "opus"
+   ],
+   [
+    "success",
+    "batch"
+   ],
+   [
+    "warn",
+    "rebase"
+   ]
+  ],
+  "acme/charlie-crm!19": [
+   [
+    "success",
+    "batch"
+   ]
+  ],
+  "acme/delta-setup!16": [
+   [
+    "muted",
+    "draft"
+   ]
+  ],
+  "acme/echo-deploy!148": [
+   [
+    "muted",
+    "draft"
+   ]
+  ],
+  "acme/echo-deploy!489": [
+   [
+    "success",
+    "batch"
+   ]
+  ],
+  "acme/foxtrot-platform!64": [
+   [
+    "outline",
+    "deckard"
+   ],
+   [
+    "warn",
+    "rebase"
+   ]
+  ],
+  "acme/foxtrot-platform!78": [
+   [
+    "warn",
+    "rebase"
+   ]
+  ],
+  "acme/foxtrot-platform!83": [
+   [
+    "warn",
+    "rebase"
+   ]
+  ],
+  "acme/foxtrot-platform!84": [
+   [
+    "warn",
+    "rebase"
+   ]
+  ],
+  "acme/foxtrot-platform!87": [
+   [
+    "success",
+    "batch"
+   ],
+   [
+    "warn",
+    "rebase"
+   ]
+  ],
+  "acme/foxtrot-platform!95": [
+   [
+    "success",
+    "batch"
+   ]
+  ],
+  "acme/golf-classifier!70": [
+   [
+    "outline",
+    "deckard"
+   ],
+   [
+    "success",
+    "mergeable"
+   ]
+  ],
+  "acme/hotel-erp!1": [
+   [
+    "success",
+    "batch"
+   ]
+  ],
+  "acme/india-analytics!12": [
+   [
+    "success",
+    "batch"
+   ],
+   [
+    "warn",
+    "rebase"
+   ]
+  ],
+  "ops/provisioning/mgmt/mirror!1": [
+   [
+    "success",
+    "mergeable"
+   ],
+   [
+    "outline",
+    "no CI"
+   ]
+  ]
+ },
+ "session_kind": {
+  "acme/alpha-app!16": null,
+  "acme/alpha-app!27": null,
+  "acme/alpha-app!98": null,
+  "acme/bravo-infra!347": "created",
+  "acme/bravo-infra!370": "created",
+  "acme/bravo-infra!393": "created",
+  "acme/bravo-infra!394": "created",
+  "acme/bravo-infra!396": "mentioned",
+  "acme/charlie-crm!19": "created",
+  "acme/delta-setup!16": "created",
+  "acme/echo-deploy!148": "mentioned",
+  "acme/echo-deploy!489": "created",
+  "acme/foxtrot-platform!64": "mentioned",
+  "acme/foxtrot-platform!78": "created",
+  "acme/foxtrot-platform!83": "created",
+  "acme/foxtrot-platform!84": "created",
+  "acme/foxtrot-platform!87": "created",
+  "acme/foxtrot-platform!95": "created",
+  "acme/golf-classifier!70": null,
+  "acme/hotel-erp!1": "created",
+  "acme/india-analytics!12": "created",
+  "ops/provisioning/mgmt/mirror!1": "created"
+ },
+ "trivial": {
+  "refs": [
+   "acme/bravo-infra!394",
+   "acme/bravo-infra!396",
+   "acme/charlie-crm!19",
+   "acme/echo-deploy!489",
+   "acme/foxtrot-platform!87",
+   "acme/foxtrot-platform!95",
+   "acme/hotel-erp!1",
+   "acme/india-analytics!12"
+  ],
+  "miss": {
+   "acme/alpha-app!16": "draft",
+   "acme/alpha-app!27": "draft",
+   "acme/alpha-app!98": "draft",
+   "acme/bravo-infra!347": "draft",
+   "acme/bravo-infra!370": "audit verdict hold",
+   "acme/bravo-infra!393": "draft",
+   "acme/bravo-infra!394": "",
+   "acme/bravo-infra!396": "",
+   "acme/charlie-crm!19": "",
+   "acme/delta-setup!16": "draft",
+   "acme/echo-deploy!148": "draft",
+   "acme/echo-deploy!489": "",
+   "acme/foxtrot-platform!64": "colleague's MR",
+   "acme/foxtrot-platform!78": "title prefix not in the list",
+   "acme/foxtrot-platform!83": "conflict",
+   "acme/foxtrot-platform!84": "conflict",
+   "acme/foxtrot-platform!87": "",
+   "acme/foxtrot-platform!95": "",
+   "acme/golf-classifier!70": "colleague's MR",
+   "acme/hotel-erp!1": "",
+   "acme/india-analytics!12": "",
+   "ops/provisioning/mgmt/mirror!1": "title prefix not in the list"
+  },
+  "steps": [
+   {
+    "ref": "acme/bravo-infra!394",
+    "rebase": true,
+    "pipelines": 1
+   },
+   {
+    "ref": "acme/bravo-infra!396",
+    "rebase": true,
+    "pipelines": 1
+   },
+   {
+    "ref": "acme/charlie-crm!19",
+    "rebase": false,
+    "pipelines": 0
+   },
+   {
+    "ref": "acme/echo-deploy!489",
+    "rebase": false,
+    "pipelines": 0
+   },
+   {
+    "ref": "acme/foxtrot-platform!95",
+    "rebase": false,
+    "pipelines": 0
+   },
+   {
+    "ref": "acme/foxtrot-platform!87",
+    "rebase": true,
+    "pipelines": 1
+   },
+   {
+    "ref": "acme/hotel-erp!1",
+    "rebase": false,
+    "pipelines": 0
+   },
+   {
+    "ref": "acme/india-analytics!12",
+    "rebase": true,
+    "pipelines": 1
+   }
+  ],
+  "rebases": 4,
+  "pipelines": 4,
+  "projects": 6
+ }
+}

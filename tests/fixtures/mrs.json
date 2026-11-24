@@ -1,0 +1,1251 @@
+{
+ "generated_at": "2026-10-23T10:26:06Z",
+ "profile": "default",
+ "host": "gitlab.example.com",
+ "user": "ripley",
+ "schema_ok": true,
+ "rules": {
+  "trivial_renovate": true,
+  "trivial_require_sure": true,
+  "trivial_own": true,
+  "trivial_title_prefixes": [
+   "chore",
+   "ci",
+   "docs",
+   "build"
+  ],
+  "trivial_max_files": 10,
+  "trivial_allow_rebase": true,
+  "trivial_never_projects": []
+ },
+ "items": [
+  {
+   "ref": "acme/alpha-app!16",
+   "project": "acme/alpha-app",
+   "project_id": 500,
+   "iid": 16,
+   "title": "task: change 1",
+   "full_title": "Draft: task: change 1",
+   "author": "deckard",
+   "owner": "other",
+   "draft": true,
+   "created_at": "2026-07-08T15:15:06Z",
+   "age_days": 106,
+   "updated_at": "2026-07-08T00:00:00Z",
+   "sha": "68883aabdceb2680a952f50afb19632f98d72245",
+   "source_branch": "task/change-1",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/alpha-app/-/merge_requests/16",
+   "merge_status": "draft_status",
+   "has_conflicts": false,
+   "merge_method": "merge",
+   "pipeline": {
+    "status": "failed",
+    "url": "https://gitlab.example.com/acme/alpha-app/-/pipelines/8563"
+   },
+   "files_changed": 11,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261014_184122_eb1eb0",
+    "profile": "default",
+    "title": "Session about acme/alpha-app!16",
+    "score": 1
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "draft"
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Colleague's MR"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/alpha-app!27",
+   "project": "acme/alpha-app",
+   "project_id": 500,
+   "iid": 27,
+   "title": "task: change 2",
+   "full_title": "Draft: task: change 2",
+   "author": "deckard",
+   "owner": "other",
+   "draft": true,
+   "created_at": "2026-07-12T14:50:56Z",
+   "age_days": 102,
+   "updated_at": "2026-07-12T00:00:00Z",
+   "sha": "0a60112cef4312140cf9be26d49448a966a8a357",
+   "source_branch": "task/change-2",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/alpha-app/-/merge_requests/27",
+   "merge_status": "draft_status",
+   "has_conflicts": false,
+   "merge_method": "merge",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/alpha-app/-/pipelines/8751"
+   },
+   "files_changed": 3,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261014_184122_eb1eb0",
+    "profile": "default",
+    "title": "Session about acme/alpha-app!27",
+    "score": 1
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "draft"
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Colleague's MR"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/alpha-app!98",
+   "project": "acme/alpha-app",
+   "project_id": 500,
+   "iid": 98,
+   "title": "task: change 3",
+   "full_title": "Draft: task: change 3",
+   "author": "deckard",
+   "owner": "other",
+   "draft": true,
+   "created_at": "2026-09-28T14:48:06Z",
+   "age_days": 24,
+   "updated_at": "2026-10-20T00:00:00Z",
+   "sha": "e639b0bcdc62815fc629578cc0660320bb17e8ef",
+   "source_branch": "task/change-3",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/alpha-app/-/merge_requests/98",
+   "merge_status": "draft_status",
+   "has_conflicts": false,
+   "merge_method": "merge",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/alpha-app/-/pipelines/12550"
+   },
+   "files_changed": 4,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261014_184122_eb1eb0",
+    "profile": "default",
+    "title": "Session about acme/alpha-app!98",
+    "score": 1
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "draft"
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Colleague's MR"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/bravo-infra!347",
+   "project": "acme/bravo-infra",
+   "project_id": 471,
+   "iid": 347,
+   "title": "feat: change 4",
+   "full_title": "Draft: feat: change 4",
+   "author": "ripley",
+   "owner": "self",
+   "draft": true,
+   "created_at": "2026-09-28T13:00:05Z",
+   "age_days": 24,
+   "updated_at": "2026-09-30T00:00:00Z",
+   "sha": "30676a9a830eed3419d3adf51a63c91d554dee7d",
+   "source_branch": "feat/change-4",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/bravo-infra/-/merge_requests/347",
+   "merge_status": "draft_status",
+   "has_conflicts": true,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/bravo-infra/-/pipelines/12757"
+   },
+   "files_changed": 4,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20260928_145539_6c6500",
+    "profile": "default",
+    "title": "Session about acme/bravo-infra!347",
+    "score": 63
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "draft"
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Draft"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/bravo-infra!370",
+   "project": "acme/bravo-infra",
+   "project_id": 471,
+   "iid": 370,
+   "title": "onlyoffice/documentserver 9.4.0.1 to 10.0.0.1",
+   "full_title": "chore(deps): update docker.io/onlyoffice/documentserver docker tag to v10",
+   "author": "group_42_bot_c0ffee",
+   "owner": "renovate",
+   "draft": false,
+   "created_at": "2026-10-13T00:09:12Z",
+   "age_days": 10,
+   "updated_at": "2026-10-21T00:00:00Z",
+   "sha": "b99189f247317d85b5625db4b9de6c36596402bc",
+   "source_branch": "renovate/docker.io-onlyoffice-documentserver-10.x",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/bravo-infra/-/merge_requests/370",
+   "merge_status": "need_rebase",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/bravo-infra/-/pipelines/14694"
+   },
+   "files_changed": 1,
+   "user_notes_count": 1,
+   "renovate": {
+    "package": "docker.io/onlyoffice/documentserver",
+    "from": "9.4.0.1",
+    "to": "10.0.0.1",
+    "update_type": "major"
+   },
+   "audit": {
+    "importance": "high",
+    "importance_reason": "Fixed in the new release, relevant to a code path this project uses.",
+    "cves": [
+     {
+      "id": "CVE-2022-3602",
+      "severity": "unknown",
+      "cvss": null,
+      "fixed_in": "10.0.0"
+     },
+     {
+      "id": "CVE-2022-3786",
+      "severity": "unknown",
+      "cvss": null,
+      "fixed_in": "10.0.0"
+     },
+     {
+      "id": "CVE-2022-23308",
+      "severity": "unknown",
+      "cvss": null,
+      "fixed_in": "10.0.0"
+     }
+    ],
+    "ease": "hard",
+    "ease_reason": "Version bump of a pinned dependency, see the breaking changes.",
+    "breaking_changes": [
+     {
+      "version": "10.0.0",
+      "change": "A default changed in this release.",
+      "affects_us": "yes",
+      "evidence": "config/settings.yml:1: the project sets this value."
+     },
+     {
+      "version": "10.0.0",
+      "change": "A default changed in this release.",
+      "affects_us": "unknown",
+      "evidence": ""
+     },
+     {
+      "version": "10.0.0",
+      "change": "A default changed in this release.",
+      "affects_us": "unknown",
+      "evidence": ""
+     },
+     {
+      "version": "10.0.0",
+      "change": "A default changed in this release.",
+      "affects_us": "unknown",
+      "evidence": ""
+     },
+     {
+      "version": "10.0.0",
+      "change": "A default changed in this release.",
+      "affects_us": "unknown",
+      "evidence": ""
+     },
+     {
+      "version": "10.0.0",
+      "change": "A default changed in this release.",
+      "affects_us": "no",
+      "evidence": "config/settings.yml:1: the project sets this value."
+     },
+     {
+      "version": "10.0.0",
+      "change": "A default changed in this release.",
+      "affects_us": "no",
+      "evidence": ""
+     },
+     {
+      "version": "10.0.0",
+      "change": "A default changed in this release.",
+      "affects_us": "no",
+      "evidence": "config/settings.yml:1: the project sets this value."
+     }
+    ],
+    "releases_read": [
+     "9.4.0",
+     "10.0.0"
+    ],
+    "verdict": "hold",
+    "summary": "Hold until the breaking changes are checked against this project.",
+    "confidence": "not_sure",
+    "not_sure_reason": "The release notes do not say whether the old behaviour still works.",
+    "model": "claude-opus-5-5",
+    "escalated": true,
+    "advisories": [],
+    "sha": "b99189f247317d85b5625db4b9de6c36596402bc",
+    "audited_at": "2026-10-23T10:28:53Z"
+   },
+   "audit_state": "done",
+   "session": {
+    "id": "20261013_104511_ff4652",
+    "profile": "default",
+    "title": "Session about acme/bravo-infra!370",
+    "score": 10
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "audit verdict hold"
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": true,
+    "reason": "Not mergeable: need_rebase"
+   },
+   "reviewers": [],
+   "last_note": {
+    "author": "ripley",
+    "at": "2026-10-20T08:00:00Z"
+   }
+  },
+  {
+   "ref": "acme/bravo-infra!393",
+   "project": "acme/bravo-infra",
+   "project_id": 471,
+   "iid": 393,
+   "title": "feat: change 5",
+   "full_title": "Draft: feat: change 5",
+   "author": "ripley",
+   "owner": "self",
+   "draft": true,
+   "created_at": "2026-10-20T13:27:07Z",
+   "age_days": 2,
+   "updated_at": "2026-10-22T00:00:00Z",
+   "sha": "7cdf002a5f02fedfd4bcd63daacb83ec12648edb",
+   "source_branch": "feat/change-5",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/bravo-infra/-/merge_requests/393",
+   "merge_status": "draft_status",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/bravo-infra/-/pipelines/14653"
+   },
+   "files_changed": 1,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261019_114259_a1fa51",
+    "profile": "default",
+    "title": "Session about acme/bravo-infra!393",
+    "score": 11
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "draft"
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Draft"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/bravo-infra!394",
+   "project": "acme/bravo-infra",
+   "project_id": 471,
+   "iid": 394,
+   "title": "traefik v3.7.15 to v3.7.16",
+   "full_title": "chore(deps): update docker.io/library/traefik docker tag to v3.7.16",
+   "author": "group_42_bot_c0ffee",
+   "owner": "renovate",
+   "draft": false,
+   "created_at": "2026-10-21T00:07:10Z",
+   "age_days": 2,
+   "updated_at": "2026-10-23T00:00:00Z",
+   "sha": "ff5f11d9630df4af88f5e5a4fcf36cffd6bf029e",
+   "source_branch": "renovate/docker.io-library-traefik-3.x",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/bravo-infra/-/merge_requests/394",
+   "merge_status": "need_rebase",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/bravo-infra/-/pipelines/14860"
+   },
+   "files_changed": 1,
+   "user_notes_count": 0,
+   "renovate": {
+    "package": "docker.io/library/traefik",
+    "from": "v3.7.15",
+    "to": "v3.7.16",
+    "update_type": "patch"
+   },
+   "audit": {
+    "importance": "high",
+    "importance_reason": "Fixed in the new release, relevant to a code path this project uses.",
+    "cves": [],
+    "ease": "trivial",
+    "ease_reason": "Version bump of a pinned dependency, see the breaking changes.",
+    "breaking_changes": [
+     {
+      "version": "v3.7.15",
+      "change": "A default changed in this release.",
+      "affects_us": "no",
+      "evidence": "config/settings.yml:1: the project sets this value."
+     }
+    ],
+    "releases_read": [
+     "v3.7.15",
+     "v3.7.16"
+    ],
+    "verdict": "merge",
+    "summary": "Merge. The change is small and the release notes show nothing that affects this project.",
+    "confidence": "sure",
+    "not_sure_reason": "",
+    "model": "claude-haiku-5-5",
+    "escalated": false,
+    "advisories": [
+     {
+      "ghsa": "GHSA-28hp-c82p-8vqj",
+      "cve": null,
+      "severity": "low",
+      "cvss": 2.1
+     },
+     {
+      "ghsa": "GHSA-hrpp-p4fc-wwf8",
+      "cve": null,
+      "severity": "high",
+      "cvss": 7.0
+     },
+     {
+      "ghsa": "GHSA-p8wx-ph99-xgcr",
+      "cve": null,
+      "severity": "high",
+      "cvss": 7.0
+     },
+     {
+      "ghsa": "GHSA-ww7c-q3mv-xx22",
+      "cve": null,
+      "severity": "high",
+      "cvss": 8.2
+     }
+    ],
+    "sha": "ff5f11d9630df4af88f5e5a4fcf36cffd6bf029e",
+    "audited_at": "2026-10-23T10:28:53Z"
+   },
+   "audit_state": "done",
+   "session": {
+    "id": "20261013_104511_ff4652",
+    "profile": "default",
+    "title": "Session about acme/bravo-infra!394",
+    "score": 50
+   },
+   "trivial": {
+    "in_batch": true,
+    "miss": ""
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": true,
+    "reason": "Not mergeable: need_rebase"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/bravo-infra!396",
+   "project": "acme/bravo-infra",
+   "project_id": 471,
+   "iid": 396,
+   "title": "postgres b0f9560 to eee6c6e",
+   "full_title": "chore(deps): update docker.io/library/postgres:17.11-alpine docker digest to eee6c6e",
+   "author": "group_42_bot_c0ffee",
+   "owner": "renovate",
+   "draft": false,
+   "created_at": "2026-10-23T00:07:10Z",
+   "age_days": 0,
+   "updated_at": "2026-10-23T00:00:00Z",
+   "sha": "487cbb89f3bee0f9cc08b0d9ada844e40e980451",
+   "source_branch": "renovate/docker.io-library-postgres-17.11-alpine",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/bravo-infra/-/merge_requests/396",
+   "merge_status": "need_rebase",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/bravo-infra/-/pipelines/14859"
+   },
+   "files_changed": 1,
+   "user_notes_count": 0,
+   "renovate": {
+    "package": "docker.io/library/postgres",
+    "from": "b0f9560",
+    "to": "eee6c6e",
+    "update_type": "digest"
+   },
+   "audit": {
+    "importance": "low",
+    "importance_reason": "Fixed in the new release, relevant to a code path this project uses.",
+    "cves": [],
+    "ease": "trivial",
+    "ease_reason": "Version bump of a pinned dependency, see the breaking changes.",
+    "breaking_changes": [],
+    "releases_read": [],
+    "verdict": "merge",
+    "summary": "Merge. The change is small and the release notes show nothing that affects this project.",
+    "confidence": "sure",
+    "not_sure_reason": "",
+    "model": "claude-opus-5-5",
+    "escalated": true,
+    "advisories": [],
+    "sha": "487cbb89f3bee0f9cc08b0d9ada844e40e980451",
+    "audited_at": "2026-10-23T10:28:53Z"
+   },
+   "audit_state": "done",
+   "session": {
+    "id": "20261016_164353_ca00ae",
+    "profile": "default",
+    "title": "Session about acme/bravo-infra!396",
+    "score": 6
+   },
+   "trivial": {
+    "in_batch": true,
+    "miss": ""
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": true,
+    "reason": "Not mergeable: need_rebase"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/charlie-crm!19",
+   "project": "acme/charlie-crm",
+   "project_id": 502,
+   "iid": 19,
+   "title": "chore: change 6",
+   "full_title": "chore: change 6",
+   "author": "ripley",
+   "owner": "self",
+   "draft": false,
+   "created_at": "2026-10-23T10:02:40Z",
+   "age_days": 0,
+   "updated_at": "2026-10-23T00:00:00Z",
+   "sha": "f8c28b924ea462f1d009346fb82c87ffc7f44b3c",
+   "source_branch": "chore/change-6",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/charlie-crm/-/merge_requests/19",
+   "merge_status": "mergeable",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/charlie-crm/-/pipelines/14907"
+   },
+   "files_changed": 2,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261021_160244_d822f0",
+    "profile": "default",
+    "title": "Session about acme/charlie-crm!19",
+    "score": 12
+   },
+   "trivial": {
+    "in_batch": true,
+    "miss": ""
+   },
+   "can": {
+    "rebase": false,
+    "merge": true,
+    "renovate_rebase": false,
+    "reason": "Already current with main"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/delta-setup!16",
+   "project": "acme/delta-setup",
+   "project_id": 503,
+   "iid": 16,
+   "title": "feat: change 7",
+   "full_title": "Draft: feat: change 7",
+   "author": "ripley",
+   "owner": "self",
+   "draft": true,
+   "created_at": "2026-10-13T12:48:45Z",
+   "age_days": 9,
+   "updated_at": "2026-10-13T00:00:00Z",
+   "sha": "319054e43759d7eb4576d51b97884ba7087b2206",
+   "source_branch": "feat/change-7",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/delta-setup/-/merge_requests/16",
+   "merge_status": "draft_status",
+   "has_conflicts": false,
+   "merge_method": "merge",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/delta-setup/-/pipelines/13973"
+   },
+   "files_changed": 10,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261013_135040_c62d49",
+    "profile": "default",
+    "title": "Session about acme/delta-setup!16",
+    "score": 60
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "draft"
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Draft"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/echo-deploy!148",
+   "project": "acme/echo-deploy",
+   "project_id": 504,
+   "iid": 148,
+   "title": "feat: change 8",
+   "full_title": "Draft: feat: change 8",
+   "author": "ripley",
+   "owner": "self",
+   "draft": true,
+   "created_at": "2026-06-29T10:44:44Z",
+   "age_days": 115,
+   "updated_at": "2026-07-01T00:00:00Z",
+   "sha": "bc7310f64dc61a512739ce2716497b0a0b1f96c1",
+   "source_branch": "feat/change-8",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/echo-deploy/-/merge_requests/148",
+   "merge_status": "draft_status",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/echo-deploy/-/pipelines/8284"
+   },
+   "files_changed": 1,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261016_164353_ca00ae",
+    "profile": "default",
+    "title": "Session about acme/echo-deploy!148",
+    "score": 8
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "draft"
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Draft"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/echo-deploy!489",
+   "project": "acme/echo-deploy",
+   "project_id": 504,
+   "iid": 489,
+   "title": "chore: change 9",
+   "full_title": "chore: change 9",
+   "author": "ripley",
+   "owner": "self",
+   "draft": false,
+   "created_at": "2026-10-23T10:02:52Z",
+   "age_days": 0,
+   "updated_at": "2026-10-23T00:00:00Z",
+   "sha": "247e759d9b6bbfdcf96b68bd05c946b8d33a3ee6",
+   "source_branch": "chore/change-6",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/echo-deploy/-/merge_requests/489",
+   "merge_status": "mergeable",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/echo-deploy/-/pipelines/14911"
+   },
+   "files_changed": 3,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261021_160244_d822f0",
+    "profile": "default",
+    "title": "Session about acme/echo-deploy!489",
+    "score": 12
+   },
+   "trivial": {
+    "in_batch": true,
+    "miss": ""
+   },
+   "can": {
+    "rebase": false,
+    "merge": true,
+    "renovate_rebase": false,
+    "reason": "Already current with main"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/foxtrot-platform!64",
+   "project": "acme/foxtrot-platform",
+   "project_id": 505,
+   "iid": 64,
+   "title": "docs: change 10",
+   "full_title": "docs: change 10",
+   "author": "deckard",
+   "owner": "other",
+   "draft": false,
+   "created_at": "2026-06-15T11:03:46Z",
+   "age_days": 129,
+   "updated_at": "2026-06-23T00:00:00Z",
+   "sha": "dfb7cf221b0d87967130ece55ac232890e97ff8f",
+   "source_branch": "docs/change-9",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/foxtrot-platform/-/merge_requests/64",
+   "merge_status": "need_rebase",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/foxtrot-platform/-/pipelines/7893"
+   },
+   "files_changed": 1,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261016_164353_ca00ae",
+    "profile": "default",
+    "title": "Session about acme/foxtrot-platform!64",
+    "score": 6
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "colleague's MR"
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Colleague's MR"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/foxtrot-platform!78",
+   "project": "acme/foxtrot-platform",
+   "project_id": 505,
+   "iid": 78,
+   "title": "task: change 11",
+   "full_title": "task: change 11",
+   "author": "ripley",
+   "owner": "self",
+   "draft": false,
+   "created_at": "2026-09-16T18:29:16Z",
+   "age_days": 36,
+   "updated_at": "2026-09-17T00:00:00Z",
+   "sha": "4caaa3788d6f25cd6eb29989c5da0842d4d7e234",
+   "source_branch": "task/change-10",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/foxtrot-platform/-/merge_requests/78",
+   "merge_status": "need_rebase",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/foxtrot-platform/-/pipelines/11810"
+   },
+   "files_changed": 31,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20260923_220712_9802cc",
+    "profile": "default",
+    "title": "Session about acme/foxtrot-platform!78",
+    "score": 13
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "title prefix not in the list"
+   },
+   "can": {
+    "rebase": true,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Not mergeable: need_rebase"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/foxtrot-platform!83",
+   "project": "acme/foxtrot-platform",
+   "project_id": 505,
+   "iid": 83,
+   "title": "docs: change 12",
+   "full_title": "docs: change 12",
+   "author": "ripley",
+   "owner": "self",
+   "draft": false,
+   "created_at": "2026-09-24T18:53:19Z",
+   "age_days": 28,
+   "updated_at": "2026-09-24T00:00:00Z",
+   "sha": "ed476b8582705c8fd51bcf142d902589d4201c8b",
+   "source_branch": "docs/change-11",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/foxtrot-platform/-/merge_requests/83",
+   "merge_status": "need_rebase",
+   "has_conflicts": true,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/foxtrot-platform/-/pipelines/12283"
+   },
+   "files_changed": 8,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20260924_202441_c39f6a",
+    "profile": "default",
+    "title": "Session about acme/foxtrot-platform!83",
+    "score": 30
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "conflict"
+   },
+   "can": {
+    "rebase": true,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Not mergeable: need_rebase"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/foxtrot-platform!84",
+   "project": "acme/foxtrot-platform",
+   "project_id": 505,
+   "iid": 84,
+   "title": "docs: change 13",
+   "full_title": "docs: change 13",
+   "author": "ripley",
+   "owner": "self",
+   "draft": false,
+   "created_at": "2026-09-24T19:57:14Z",
+   "age_days": 28,
+   "updated_at": "2026-09-25T00:00:00Z",
+   "sha": "5d69875bf6a341191fed462eef808b846bef3a3b",
+   "source_branch": "docs/change-12",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/foxtrot-platform/-/merge_requests/84",
+   "merge_status": "need_rebase",
+   "has_conflicts": true,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/foxtrot-platform/-/pipelines/12366"
+   },
+   "files_changed": 2,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20260924_215602_7d5fdc",
+    "profile": "default",
+    "title": "Session about acme/foxtrot-platform!84",
+    "score": 47
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "conflict"
+   },
+   "can": {
+    "rebase": true,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Not mergeable: need_rebase"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/foxtrot-platform!87",
+   "project": "acme/foxtrot-platform",
+   "project_id": 505,
+   "iid": 87,
+   "title": "docs: change 14",
+   "full_title": "docs: change 14",
+   "author": "ripley",
+   "owner": "self",
+   "draft": false,
+   "created_at": "2026-09-30T15:43:17Z",
+   "age_days": 22,
+   "updated_at": "2026-09-30T00:00:00Z",
+   "sha": "ec53eb7f57dc8f92a46884595168c4de4d3b8bb0",
+   "source_branch": "docs/change-13",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/foxtrot-platform/-/merge_requests/87",
+   "merge_status": "need_rebase",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/foxtrot-platform/-/pipelines/12752"
+   },
+   "files_changed": 2,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20260924_191921_8da4cd",
+    "profile": "default",
+    "title": "Session about acme/foxtrot-platform!87",
+    "score": 54
+   },
+   "trivial": {
+    "in_batch": true,
+    "miss": ""
+   },
+   "can": {
+    "rebase": true,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Not mergeable: need_rebase"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/foxtrot-platform!95",
+   "project": "acme/foxtrot-platform",
+   "project_id": 505,
+   "iid": 95,
+   "title": "chore: change 6",
+   "full_title": "chore: change 6",
+   "author": "ripley",
+   "owner": "self",
+   "draft": false,
+   "created_at": "2026-10-23T10:02:49Z",
+   "age_days": 0,
+   "updated_at": "2026-10-23T00:00:00Z",
+   "sha": "71357b053d86a2f31526ba0828bb4cebdafed1f3",
+   "source_branch": "chore/change-6",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/foxtrot-platform/-/merge_requests/95",
+   "merge_status": "mergeable",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/foxtrot-platform/-/pipelines/14910"
+   },
+   "files_changed": 6,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261021_160244_d822f0",
+    "profile": "default",
+    "title": "Session about acme/foxtrot-platform!95",
+    "score": 12
+   },
+   "trivial": {
+    "in_batch": true,
+    "miss": ""
+   },
+   "can": {
+    "rebase": false,
+    "merge": true,
+    "renovate_rebase": false,
+    "reason": "Already current with main"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/golf-classifier!70",
+   "project": "acme/golf-classifier",
+   "project_id": 506,
+   "iid": 70,
+   "title": "feat: change 15",
+   "full_title": "feat: change 15",
+   "author": "deckard",
+   "owner": "other",
+   "draft": false,
+   "created_at": "2026-10-23T10:19:43Z",
+   "age_days": 0,
+   "updated_at": "2026-10-23T00:00:00Z",
+   "sha": "b960058b08a4226158f935e98a0a8355832813a1",
+   "source_branch": "feat/change-14",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/golf-classifier/-/merge_requests/70",
+   "merge_status": "mergeable",
+   "has_conflicts": false,
+   "merge_method": "merge",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/golf-classifier/-/pipelines/14916"
+   },
+   "files_changed": 2,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": null,
+   "trivial": {
+    "in_batch": false,
+    "miss": "colleague's MR"
+   },
+   "can": {
+    "rebase": false,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Colleague's MR"
+   },
+   "reviewers": [
+    "ripley"
+   ],
+   "last_note": null
+  },
+  {
+   "ref": "acme/hotel-erp!1",
+   "project": "acme/hotel-erp",
+   "project_id": 507,
+   "iid": 1,
+   "title": "chore: change 6",
+   "full_title": "chore: change 6",
+   "author": "ripley",
+   "owner": "self",
+   "draft": false,
+   "created_at": "2026-10-23T10:02:46Z",
+   "age_days": 0,
+   "updated_at": "2026-10-23T00:00:00Z",
+   "sha": "12fdb1347f9c722f6618253696bc78e85717f666",
+   "source_branch": "chore/change-6",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/hotel-erp/-/merge_requests/1",
+   "merge_status": "mergeable",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/hotel-erp/-/pipelines/14909"
+   },
+   "files_changed": 2,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261021_160244_d822f0",
+    "profile": "default",
+    "title": "Session about acme/hotel-erp!1",
+    "score": 12
+   },
+   "trivial": {
+    "in_batch": true,
+    "miss": ""
+   },
+   "can": {
+    "rebase": false,
+    "merge": true,
+    "renovate_rebase": false,
+    "reason": "Already current with main"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "acme/india-analytics!12",
+   "project": "acme/india-analytics",
+   "project_id": 508,
+   "iid": 12,
+   "title": "chore: change 16",
+   "full_title": "chore: change 16",
+   "author": "ripley",
+   "owner": "self",
+   "draft": false,
+   "created_at": "2026-10-23T10:02:43Z",
+   "age_days": 0,
+   "updated_at": "2026-10-23T00:00:00Z",
+   "sha": "6f55368b29d946bc40ce9b3a978293a6571a0697",
+   "source_branch": "chore/change-6",
+   "target_branch": "main",
+   "web_url": "https://gitlab.example.com/acme/india-analytics/-/merge_requests/12",
+   "merge_status": "need_rebase",
+   "has_conflicts": false,
+   "merge_method": "ff",
+   "pipeline": {
+    "status": "success",
+    "url": "https://gitlab.example.com/acme/india-analytics/-/pipelines/14908"
+   },
+   "files_changed": 2,
+   "user_notes_count": 0,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261021_160244_d822f0",
+    "profile": "default",
+    "title": "Session about acme/india-analytics!12",
+    "score": 12
+   },
+   "trivial": {
+    "in_batch": true,
+    "miss": ""
+   },
+   "can": {
+    "rebase": true,
+    "merge": false,
+    "renovate_rebase": false,
+    "reason": "Not mergeable: need_rebase"
+   },
+   "reviewers": [],
+   "last_note": null
+  },
+  {
+   "ref": "ops/provisioning/mgmt/mirror!1",
+   "project": "ops/provisioning/mgmt/mirror",
+   "project_id": 509,
+   "iid": 1,
+   "title": "task: change 17",
+   "full_title": "task: change 17",
+   "author": "ripley",
+   "owner": "self",
+   "draft": false,
+   "created_at": "2026-07-23T09:08:24Z",
+   "age_days": 92,
+   "updated_at": "2026-07-23T00:00:00Z",
+   "sha": "54743643e5eb58a3e2af1df8cc04167ed9b110e5",
+   "source_branch": "task/change-15",
+   "target_branch": "master",
+   "web_url": "https://gitlab.example.com/ops/provisioning/mgmt/mirror/-/merge_requests/1",
+   "merge_status": "mergeable",
+   "has_conflicts": false,
+   "merge_method": "merge",
+   "pipeline": null,
+   "files_changed": 9,
+   "user_notes_count": 1,
+   "renovate": null,
+   "audit": null,
+   "audit_state": "none",
+   "session": {
+    "id": "20261016_164353_ca00ae",
+    "profile": "default",
+    "title": "Session about ops/provisioning/mgmt/mirror!1",
+    "score": 11
+   },
+   "trivial": {
+    "in_batch": false,
+    "miss": "title prefix not in the list"
+   },
+   "can": {
+    "rebase": false,
+    "merge": true,
+    "renovate_rebase": false,
+    "reason": "Already current with master"
+   },
+   "reviewers": [],
+   "last_note": {
+    "author": "deckard",
+    "at": "2026-10-22T09:15:00Z"
+   }
+  }
+ ]
+}

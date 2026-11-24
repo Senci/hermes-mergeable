@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 372" width="1040" height="372" role="img" aria-label="How the Mergeable plugin is wired" font-family="system-ui, sans-serif">
+  <title>How the Mergeable plugin is wired</title>
+  <rect width="1040" height="372" rx="8" fill="#0d1117"/>
+  <defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#7d8590"/></marker></defs>
+  <g font-size="12">
+    <rect x="16" y="20" width="250" height="132" rx="6" fill="#010409" stroke="#30363d"/>
+    <text x="30" y="42" fill="#e6edf3" font-weight="600">desktop/plugin.js</text>
+    <text x="30" y="62" fill="#a9b1ba">pane (files, center) + page route</text>
+    <text x="30" y="80" fill="#a9b1ba">sidebar row, palette, keybind</text>
+    <text x="30" y="98" fill="#a9b1ba">poll GET /mrs, key: conn + profile</text>
+    <text x="30" y="116" fill="#a9b1ba">ConfirmDialog before merge</text>
+    <text x="30" y="134" fill="#a9b1ba">host.openSession(id, intent tab)</text>
+
+    <rect x="390" y="20" width="270" height="168" rx="6" fill="#010409" stroke="#4a84fe"/>
+    <text x="404" y="42" fill="#e6edf3" font-weight="600">dashboard/plugin_api.py</text>
+    <text x="404" y="62" fill="#a9b1ba">GET  /mrs[?refresh=1]</text>
+    <text x="404" y="80" fill="#a9b1ba">POST /mrs/{project_id}/{iid}/rebase</text>
+    <text x="404" y="98" fill="#a9b1ba">POST .../merge | retry-pipeline | ready</text>
+    <text x="404" y="116" fill="#a9b1ba">POST .../audit | renovate-hold</text>
+    <text x="404" y="134" fill="#a9b1ba">POST /batch/trivial, /audit/all</text>
+    <text x="404" y="152" fill="#a9b1ba">GET  /jobs, /jobs/{id}, /status.md</text>
+    <text x="404" y="170" fill="#a9b1ba">plain def handlers (threadpool)</text>
+
+    <rect x="780" y="14" width="244" height="54" rx="6" fill="#010409" stroke="#30363d"/>
+    <text x="794" y="36" fill="#e6edf3" font-weight="600">glab api (your GitLab host)</text>
+    <text x="794" y="54" fill="#a9b1ba">--hostname from settings, own login</text>
+
+    <rect x="780" y="84" width="244" height="54" rx="6" fill="#010409" stroke="#30363d"/>
+    <text x="794" y="106" fill="#e6edf3" font-weight="600">GitHub API (anonymous)</text>
+    <text x="794" y="124" fill="#a9b1ba">releases, CHANGELOG, advisories</text>
+
+    <rect x="780" y="154" width="244" height="70" rx="6" fill="#010409" stroke="#30363d"/>
+    <text x="794" y="176" fill="#e6edf3" font-weight="600">hermes chat --oneshot -t clarify</text>
+    <text x="794" y="194" fill="#a9b1ba">audit_models: haiku-5-5 first</text>
+    <text x="794" y="212" fill="#a9b1ba">opus-5-5 when not sure or invalid</text>
+
+    <rect x="390" y="216" width="270" height="88" rx="6" fill="#010409" stroke="#30363d"/>
+    <text x="404" y="238" fill="#e6edf3" font-weight="600">$HERMES_HOME/mergeable/</text>
+    <text x="404" y="256" fill="#a9b1ba">audits.db keyed by ref and head sha</text>
+    <text x="404" y="274" fill="#a9b1ba">facts.json (MR facts cache)</text>
+    <text x="404" y="292" fill="#a9b1ba">actions.log (one JSONL line per write)</text>
+
+    <rect x="16" y="216" width="250" height="70" rx="6" fill="#010409" stroke="#30363d"/>
+    <text x="30" y="238" fill="#e6edf3" font-weight="600">state.db (every profile)</text>
+    <text x="30" y="256" fill="#a9b1ba">git push / mr create = author</text>
+    <text x="30" y="274" fill="#a9b1ba">opened read-only (mode=ro)</text>
+
+    <line x1="266" y1="86" x2="386" y2="86" stroke="#7d8590" marker-end="url(#ar)"/>
+    <text x="298" y="78" fill="#7d8590" font-size="11">ctx.rest</text>
+    <line x1="660" y1="50" x2="776" y2="42" stroke="#7d8590" marker-end="url(#ar)"/>
+    <line x1="660" y1="100" x2="776" y2="110" stroke="#7d8590" marker-end="url(#ar)"/>
+    <line x1="660" y1="150" x2="776" y2="186" stroke="#7d8590" marker-end="url(#ar)"/>
+    <line x1="525" y1="188" x2="525" y2="212" stroke="#7d8590" marker-end="url(#ar)"/>
+    <line x1="410" y1="188" x2="270" y2="230" stroke="#7d8590" marker-end="url(#ar)"/>
+    <text x="16" y="332" fill="#7d8590" font-size="11.5">Merge: re-read, one rebase at most, wait for a green head pipeline, then PUT .../merge with sha=head. Never glab mr merge, never --rebase.</text>
+    <text x="16" y="350" fill="#7d8590" font-size="11.5">Every write is a job (one write job per project, 423 when busy) and appends one line to actions.log. Source lines: docs/explanation/architecture.md.</text>
+  </g>
+</svg>

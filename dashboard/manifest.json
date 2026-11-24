@@ -1,0 +1,9 @@
+{
+  "name": "mergeable",
+  "label": "Mergeable",
+  "description": "Open merge requests across your GitLab projects",
+  "icon": "GitMerge",
+  "version": "0.1.0",
+  "tab": { "path": "/mergeable", "hidden": true },
+  "api": "plugin_api.py"
+}

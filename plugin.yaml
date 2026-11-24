@@ -1,0 +1,76 @@
+name: mergeable
+version: "0.1.0"
+manifest_version: 2
+description: Open GitLab merge requests of this profile's projects in Hermes Desktop, with rebase and merge actions, Renovate audits and a trivial batch.
+author: Senad Ličina
+license: MIT
+requires_hermes: ">=0.21.5"
+tags: [gitlab, merge-requests, desktop]
+provides_tools: []
+provides_hooks: []
+requires_env: []
+config_schema:
+  gitlab_host:
+    type: string
+    default: gitlab.com
+    description: GitLab host the glab login is used against.
+  include_groups:
+    type: array
+    default: []
+    description: Only list projects under these groups (full paths). Empty means every project you are a member of.
+  exclude_projects:
+    type: array
+    default: []
+    description: Project paths never listed.
+  renovate_branch_prefix:
+    type: string
+    default: renovate/
+    description: Source branch prefix of Renovate merge requests.
+  session_profiles:
+    type: array
+    default: []
+    description: Profiles whose sessions are searched for the session that made a branch. Empty means all.
+  auto_audit:
+    type: boolean
+    default: true
+    description: Audit a Renovate merge request when its head commit changes.
+  trivial_renovate:
+    type: boolean
+    default: true
+    description: Trivial batch takes Renovate merge requests whose audit says merge and trivial.
+  trivial_require_sure:
+    type: boolean
+    default: true
+    description: A Renovate audit must also be confident (sure) to count as trivial.
+  trivial_own:
+    type: boolean
+    default: true
+    description: Trivial batch takes your own merge requests with a matching title prefix.
+  trivial_title_prefixes:
+    type: array
+    default: [chore, ci, docs, build]
+    description: Title prefixes (before a colon or parenthesis) of your own trivial merge requests.
+  trivial_max_files:
+    type: integer
+    default: 10
+    description: Most files an own merge request may change and still count as trivial.
+  trivial_allow_rebase:
+    type: boolean
+    default: true
+    description: A merge request that needs one rebase may still be in the trivial batch.
+  trivial_never_projects:
+    type: array
+    default: []
+    description: Project paths that never join the trivial batch.
+  delete_source_branch:
+    type: boolean
+    default: true
+    description: Remove the source branch when a merge request is merged.
+  merge_wait_minutes:
+    type: integer
+    default: 45
+    description: Longest wait for a rebase or a green pipeline before a merge job gives up.
+  audit_models:
+    type: array
+    default: [claude-haiku-5-5, claude-opus-5-5]
+    description: Models for the Renovate audit, cheapest first; the next one is used when the first is not sure.

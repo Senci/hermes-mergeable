@@ -1,0 +1,33 @@
+{
+  "sources": {
+    "desktop/plugin.js": "d2395ae1f5825e1952e72712b8ebb3de17f8bdf75069edbcb6cdb0be49d5f93c",
+    "docs/fixtures/example.json": "ff2a10b2189e5a1537d7741c6db93a3e0621f37731a7c3ff0e74a3fafb0e2f21",
+    "scripts/docs-shots.mjs": "d569f26d9dd8bb442bae0c3150796ca02ba74a89d3a748aee2215a704f405708"
+  },
+  "shots": {
+    "pane": {
+      "w": 680,
+      "h": 1680
+    },
+    "page": {
+      "w": 1280,
+      "h": 1080
+    },
+    "merge-confirm": {
+      "w": 1240,
+      "h": 880
+    },
+    "trivial-confirm": {
+      "w": 1240,
+      "h": 940
+    },
+    "settings": {
+      "w": 900,
+      "h": 1400
+    },
+    "notification": {
+      "w": 920,
+      "h": 460
+    }
+  }
+}

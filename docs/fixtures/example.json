@@ -1,0 +1,716 @@
+{
+  "generated_at": "2026-10-23T10:00:00Z",
+  "profile": "default",
+  "host": "gitlab.example.com",
+  "user": "ripley",
+  "schema_ok": true,
+  "warnings": [],
+  "rules": {
+    "trivial_renovate": true,
+    "trivial_require_sure": true,
+    "trivial_own": true,
+    "trivial_title_prefixes": [
+      "chore",
+      "ci",
+      "docs",
+      "build"
+    ],
+    "trivial_max_files": 10,
+    "trivial_allow_rebase": true,
+    "trivial_never_projects": [],
+    "delete_source_branch": true,
+    "merge_wait_minutes": 45
+  },
+  "batch": {
+    "refs": [
+      "aperture/portal-gun!41",
+      "aperture/portal-gun!44",
+      "tyrell/voight-kampff!8"
+    ],
+    "shas": [
+      "76edc7e2a75466380dadb9be8f208f100f71ca9d",
+      "76edc7e2a75466380dadb9be8f208f100f7293bd",
+      "71c5b39d0a311c8d407bf24a6b11cd670e3a4c9c"
+    ],
+    "rebases": 1,
+    "pipelines": 1
+  },
+  "items": [
+    {
+      "ref": "aperture/portal-gun!41",
+      "project": "aperture/portal-gun",
+      "project_id": 101,
+      "iid": 41,
+      "title": "flux-capacitor 1.21.0 to 1.21.1",
+      "full_title": "chore(deps): update flux-capacitor to v1.21.1",
+      "author": "group_42_bot_c0ffee",
+      "owner": "renovate",
+      "draft": false,
+      "created_at": "2026-10-22T08:00:00Z",
+      "age_days": 1,
+      "updated_at": "2026-10-22T08:25:00Z",
+      "sha": "76edc7e2a75466380dadb9be8f208f100f71ca9d",
+      "source_branch": "renovate/flux-capacitor-1.x",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/aperture/portal-gun/-/merge_requests/41",
+      "merge_status": "mergeable",
+      "has_conflicts": false,
+      "merge_method": "ff",
+      "pipeline": {
+        "status": "success",
+        "url": "https://gitlab.example.com/aperture/portal-gun/-/pipelines/9041"
+      },
+      "files_changed": 1,
+      "user_notes_count": 0,
+      "renovate": {
+        "package": "flux-capacitor",
+        "from": "1.21.0",
+        "to": "1.21.1",
+        "update_type": "patch"
+      },
+      "audit": {
+        "importance": "high",
+        "importance_reason": "1.21.1 fixes a flux leak that lets a plugin read another plugin's capacitor state. The portal gun runs the affected path.",
+        "cves": [
+          {
+            "id": "GHSA-dead-beef-cafe",
+            "severity": "high",
+            "cvss": 7.0,
+            "fixed_in": "1.21.1"
+          }
+        ],
+        "ease": "trivial",
+        "ease_reason": "Patch release, one changed file, no API change, and the repo has no pin on the capacitor driver.",
+        "breaking_changes": [],
+        "releases_read": [
+          "1.21.1"
+        ],
+        "verdict": "merge",
+        "summary": "Security patch for a path we use, no breaking change. Merge it.",
+        "confidence": "sure",
+        "not_sure_reason": "",
+        "model": "claude-haiku-5-5",
+        "escalated": false,
+        "advisories": [
+          {
+            "ghsa": "GHSA-dead-beef-cafe",
+            "cve": null,
+            "severity": "high",
+            "cvss": 7.0
+          }
+        ],
+        "sha": "76edc7e2a75466380dadb9be8f208f100f71ca9d",
+        "audited_at": "2026-10-22T08:20:00Z"
+      },
+      "audit_state": "done",
+      "session": null,
+      "reviewers": [],
+      "last_note": null,
+      "can": {
+        "rebase": false,
+        "merge": true,
+        "renovate_rebase": false,
+        "reason": "Merge into main",
+        "rebase_reason": "Already current with main"
+      },
+      "trivial": {
+        "in_batch": true,
+        "miss": ""
+      }
+    },
+    {
+      "ref": "tyrell/voight-kampff!5",
+      "project": "tyrell/voight-kampff",
+      "project_id": 103,
+      "iid": 5,
+      "title": "replicant-tracker 0.9.0 to 0.9.1",
+      "full_title": "chore(deps): update replicant-tracker to v0.9.1",
+      "author": "group_42_bot_c0ffee",
+      "owner": "renovate",
+      "draft": false,
+      "created_at": "2026-10-19T09:00:00Z",
+      "age_days": 4,
+      "updated_at": "2026-10-22T06:00:00Z",
+      "sha": "71c5b39d0a311c8d407bf24a6b11cd670e39837c",
+      "source_branch": "renovate/replicant-tracker-0.x",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/tyrell/voight-kampff/-/merge_requests/5",
+      "merge_status": "mergeable",
+      "has_conflicts": false,
+      "merge_method": "merge",
+      "pipeline": null,
+      "files_changed": 1,
+      "user_notes_count": 0,
+      "renovate": {
+        "package": "replicant-tracker",
+        "from": "0.9.0",
+        "to": "0.9.1",
+        "update_type": "patch"
+      },
+      "audit": {
+        "importance": "low",
+        "importance_reason": "Bug fix release for the tracker UI, no security content.",
+        "cves": [],
+        "ease": "trivial",
+        "ease_reason": "Patch release.",
+        "breaking_changes": [],
+        "releases_read": [
+          "0.9.1"
+        ],
+        "verdict": "merge",
+        "summary": "Plain bug fixes. Merge it.",
+        "confidence": "sure",
+        "not_sure_reason": "",
+        "model": "claude-haiku-5-5",
+        "escalated": false,
+        "advisories": [],
+        "sha": "0000000d0a311c8d407bf24a6b11cd670e39837c",
+        "audited_at": "2026-10-19T09:30:00Z"
+      },
+      "audit_state": "stale",
+      "session": null,
+      "reviewers": [],
+      "last_note": null,
+      "can": {
+        "rebase": false,
+        "merge": true,
+        "renovate_rebase": false,
+        "reason": "Merge into main",
+        "rebase_reason": "Already current with main"
+      },
+      "trivial": {
+        "in_batch": false,
+        "miss": "no audit yet"
+      }
+    },
+    {
+      "ref": "cyberdyne/skynet-lite!12",
+      "project": "cyberdyne/skynet-lite",
+      "project_id": 104,
+      "iid": 12,
+      "title": "time-travel-lib 4.0.0 to 4.1.0",
+      "full_title": "chore(deps): update time-travel-lib to v4.1.0",
+      "author": "group_42_bot_c0ffee",
+      "owner": "renovate",
+      "draft": false,
+      "created_at": "2026-10-21T14:00:00Z",
+      "age_days": 1,
+      "updated_at": "2026-10-22T14:00:00Z",
+      "sha": "cc6fa0a99a9e7c1ea497749c1b2e5949a92cc81a",
+      "source_branch": "renovate/time-travel-lib-4.x",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/cyberdyne/skynet-lite/-/merge_requests/12",
+      "merge_status": "mergeable",
+      "has_conflicts": false,
+      "merge_method": "merge",
+      "pipeline": {
+        "status": "success",
+        "url": "https://gitlab.example.com/cyberdyne/skynet-lite/-/pipelines/9012"
+      },
+      "files_changed": 1,
+      "user_notes_count": 0,
+      "renovate": {
+        "package": "time-travel-lib",
+        "from": "4.0.0",
+        "to": "4.1.0",
+        "update_type": "minor"
+      },
+      "audit": null,
+      "audit_state": "error",
+      "session": null,
+      "reviewers": [],
+      "last_note": null,
+      "can": {
+        "rebase": false,
+        "merge": true,
+        "renovate_rebase": false,
+        "reason": "Merge into main",
+        "rebase_reason": "Already current with main"
+      },
+      "trivial": {
+        "in_batch": false,
+        "miss": "no audit yet"
+      }
+    },
+    {
+      "ref": "aperture/portal-gun!44",
+      "project": "aperture/portal-gun",
+      "project_id": 101,
+      "iid": 44,
+      "title": "chore: refresh the cake recipe",
+      "full_title": "chore: refresh the cake recipe",
+      "author": "ripley",
+      "owner": "self",
+      "draft": false,
+      "created_at": "2026-10-23T06:00:00Z",
+      "age_days": 0,
+      "updated_at": "2026-10-23T09:12:00Z",
+      "sha": "76edc7e2a75466380dadb9be8f208f100f7293bd",
+      "source_branch": "chore/cake-recipe",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/aperture/portal-gun/-/merge_requests/44",
+      "merge_status": "mergeable",
+      "has_conflicts": false,
+      "merge_method": "ff",
+      "pipeline": {
+        "status": "success",
+        "url": "https://gitlab.example.com/aperture/portal-gun/-/pipelines/9044"
+      },
+      "files_changed": 2,
+      "user_notes_count": 2,
+      "renovate": null,
+      "audit": null,
+      "audit_state": "none",
+      "session": {
+        "id": "20261023_060500_a1b2c3",
+        "profile": "default",
+        "title": "Refresh the cake recipe",
+        "score": 63
+      },
+      "reviewers": [],
+      "last_note": {
+        "author": "glados",
+        "at": "2026-10-23T09:12:00Z"
+      },
+      "can": {
+        "rebase": false,
+        "merge": true,
+        "renovate_rebase": false,
+        "reason": "Merge into main",
+        "rebase_reason": "Already current with main"
+      },
+      "trivial": {
+        "in_batch": true,
+        "miss": ""
+      }
+    },
+    {
+      "ref": "cyberdyne/skynet-lite!9",
+      "project": "cyberdyne/skynet-lite",
+      "project_id": 104,
+      "iid": 9,
+      "title": "neural-net-chipset 3.1.2 to 3.1.3",
+      "full_title": "chore(deps): update neural-net-chipset to v3.1.3",
+      "author": "group_42_bot_c0ffee",
+      "owner": "renovate",
+      "draft": false,
+      "created_at": "2026-10-23T07:30:00Z",
+      "age_days": 0,
+      "updated_at": "2026-10-23T07:30:00Z",
+      "sha": "384734091c8a00f28df56e53449abc48de1fb84c",
+      "source_branch": "renovate/neural-net-chipset-3.x",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/cyberdyne/skynet-lite/-/merge_requests/9",
+      "merge_status": "mergeable",
+      "has_conflicts": false,
+      "merge_method": "merge",
+      "pipeline": {
+        "status": "running",
+        "url": "https://gitlab.example.com/cyberdyne/skynet-lite/-/pipelines/9009"
+      },
+      "files_changed": 1,
+      "user_notes_count": 0,
+      "renovate": {
+        "package": "neural-net-chipset",
+        "from": "3.1.2",
+        "to": "3.1.3",
+        "update_type": "patch"
+      },
+      "audit": null,
+      "audit_state": "running",
+      "session": null,
+      "reviewers": [],
+      "last_note": null,
+      "can": {
+        "rebase": false,
+        "merge": true,
+        "renovate_rebase": false,
+        "reason": "Waits for the pipeline, then merges",
+        "rebase_reason": "Already current with main"
+      },
+      "trivial": {
+        "in_batch": false,
+        "miss": "pipeline running"
+      }
+    },
+    {
+      "ref": "tyrell/voight-kampff!8",
+      "project": "tyrell/voight-kampff",
+      "project_id": 103,
+      "iid": 8,
+      "title": "docs: explain the empathy test",
+      "full_title": "docs: explain the empathy test",
+      "author": "ripley",
+      "owner": "self",
+      "draft": false,
+      "created_at": "2026-10-22T16:00:00Z",
+      "age_days": 0,
+      "updated_at": "2026-10-22T16:00:00Z",
+      "sha": "71c5b39d0a311c8d407bf24a6b11cd670e3a4c9c",
+      "source_branch": "docs/empathy-test",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/tyrell/voight-kampff/-/merge_requests/8",
+      "merge_status": "mergeable",
+      "has_conflicts": false,
+      "merge_method": "merge",
+      "pipeline": null,
+      "files_changed": 1,
+      "user_notes_count": 0,
+      "renovate": null,
+      "audit": null,
+      "audit_state": "none",
+      "session": {
+        "id": "20261022_160500_7c8d9e",
+        "profile": "default",
+        "title": "Write down the empathy test",
+        "score": 31
+      },
+      "reviewers": [],
+      "last_note": null,
+      "can": {
+        "rebase": false,
+        "merge": true,
+        "renovate_rebase": false,
+        "reason": "Merge into main",
+        "rebase_reason": "Already current with main"
+      },
+      "trivial": {
+        "in_batch": true,
+        "miss": ""
+      }
+    },
+    {
+      "ref": "weyland/nostromo-autopilot!17",
+      "project": "weyland/nostromo-autopilot",
+      "project_id": 102,
+      "iid": 17,
+      "title": "deep-thought 41 to 42",
+      "full_title": "chore(deps): update deep-thought to v42",
+      "author": "group_42_bot_c0ffee",
+      "owner": "renovate",
+      "draft": false,
+      "created_at": "2026-10-12T09:00:00Z",
+      "age_days": 11,
+      "updated_at": "2026-10-21T00:00:00Z",
+      "sha": "c4056b24ca7dc6a00072a541377f2d3a08a7b597",
+      "source_branch": "renovate/deep-thought-42.x",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/weyland/nostromo-autopilot/-/merge_requests/17",
+      "merge_status": "need_rebase",
+      "has_conflicts": false,
+      "merge_method": "ff",
+      "pipeline": {
+        "status": "success",
+        "url": "https://gitlab.example.com/weyland/nostromo-autopilot/-/pipelines/9017"
+      },
+      "files_changed": 1,
+      "user_notes_count": 1,
+      "renovate": {
+        "package": "deep-thought",
+        "from": "41",
+        "to": "42",
+        "update_type": "major"
+      },
+      "audit": {
+        "importance": "medium",
+        "importance_reason": "42 is the final answer, but the release changes the question format. Nothing here is a security fix.",
+        "cves": [],
+        "ease": "hard",
+        "ease_reason": "Major bump. The question is now asked in base 13 and the autopilot still sends it in base 10.",
+        "breaking_changes": [
+          {
+            "version": "42.0.0",
+            "change": "The question must be sent in base 13.",
+            "affects_us": "yes",
+            "evidence": "src/guidance/ask.cpp:88: the autopilot formats the question with std::to_string."
+          },
+          {
+            "version": "42.0.0",
+            "change": "The answer is cached for 7.5 million years.",
+            "affects_us": "unknown",
+            "evidence": ""
+          }
+        ],
+        "releases_read": [
+          "41.0.1",
+          "42.0.0"
+        ],
+        "verdict": "hold",
+        "summary": "Hold until the question format is ported. The code change is small but the autopilot has no test for it.",
+        "confidence": "not_sure",
+        "not_sure_reason": "The release notes do not say whether the old question format still works in compatibility mode.",
+        "model": "claude-opus-5-5",
+        "escalated": true,
+        "advisories": [],
+        "sha": "c4056b24ca7dc6a00072a541377f2d3a08a7b597",
+        "audited_at": "2026-10-12T09:40:00Z"
+      },
+      "audit_state": "done",
+      "session": null,
+      "reviewers": [],
+      "last_note": null,
+      "can": {
+        "rebase": true,
+        "merge": true,
+        "renovate_rebase": true,
+        "reason": "Rebases once, waits for the pipeline, then merges",
+        "rebase_reason": "Ask Renovate to rebase (ticks its rebase box)"
+      },
+      "trivial": {
+        "in_batch": false,
+        "miss": "audit verdict hold"
+      }
+    },
+    {
+      "ref": "aperture/portal-gun!46",
+      "project": "aperture/portal-gun",
+      "project_id": 101,
+      "iid": 46,
+      "title": "feat: add the portal cooldown timer",
+      "full_title": "feat: add the portal cooldown timer",
+      "author": "ripley",
+      "owner": "self",
+      "draft": false,
+      "created_at": "2026-10-20T11:00:00Z",
+      "age_days": 2,
+      "updated_at": "2026-10-22T00:00:00Z",
+      "sha": "76edc7e2a75466380dadb9be8f208f100f7319d3",
+      "source_branch": "feat/portal-cooldown",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/aperture/portal-gun/-/merge_requests/46",
+      "merge_status": "need_rebase",
+      "has_conflicts": false,
+      "merge_method": "ff",
+      "pipeline": {
+        "status": "success",
+        "url": "https://gitlab.example.com/aperture/portal-gun/-/pipelines/9046"
+      },
+      "files_changed": 5,
+      "user_notes_count": 0,
+      "renovate": null,
+      "audit": null,
+      "audit_state": "none",
+      "session": {
+        "id": "20261021_100000_5f6a7b",
+        "profile": "default",
+        "title": "Compare cooldown timer designs",
+        "score": 1
+      },
+      "reviewers": [],
+      "last_note": null,
+      "can": {
+        "rebase": true,
+        "merge": true,
+        "renovate_rebase": false,
+        "reason": "Rebases once, waits for the pipeline, then merges",
+        "rebase_reason": "Rebase once on the server (starts one pipeline)"
+      },
+      "trivial": {
+        "in_batch": false,
+        "miss": "title prefix not in the list"
+      }
+    },
+    {
+      "ref": "cyberdyne/skynet-lite!14",
+      "project": "cyberdyne/skynet-lite",
+      "project_id": 104,
+      "iid": 14,
+      "title": "fix: stop the termination loop",
+      "full_title": "fix: stop the termination loop",
+      "author": "ripley",
+      "owner": "self",
+      "draft": false,
+      "created_at": "2026-10-09T09:00:00Z",
+      "age_days": 14,
+      "updated_at": "2026-10-14T00:00:00Z",
+      "sha": "cc6fa0a99a9e7c1ea497749c1b2e5949a92d4e2f",
+      "source_branch": "fix/termination-loop",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/cyberdyne/skynet-lite/-/merge_requests/14",
+      "merge_status": "conflict",
+      "has_conflicts": true,
+      "merge_method": "merge",
+      "pipeline": {
+        "status": "failed",
+        "url": "https://gitlab.example.com/cyberdyne/skynet-lite/-/pipelines/9014"
+      },
+      "files_changed": 6,
+      "user_notes_count": 3,
+      "renovate": null,
+      "audit": null,
+      "audit_state": "none",
+      "session": {
+        "id": "20261009_091000_0a1b2c",
+        "profile": "default",
+        "title": "Why does the loop never end",
+        "score": 22
+      },
+      "reviewers": [],
+      "last_note": null,
+      "can": {
+        "rebase": false,
+        "merge": false,
+        "renovate_rebase": false,
+        "reason": "Conflict",
+        "rebase_reason": "Conflict: resolve it in the branch first"
+      },
+      "trivial": {
+        "in_batch": false,
+        "miss": "pipeline failed"
+      }
+    },
+    {
+      "ref": "weyland/nostromo-autopilot!19",
+      "project": "weyland/nostromo-autopilot",
+      "project_id": 102,
+      "iid": 19,
+      "title": "fix: open the pod bay doors",
+      "full_title": "fix: open the pod bay doors",
+      "author": "hal9000",
+      "owner": "other",
+      "draft": false,
+      "created_at": "2026-09-15T09:00:00Z",
+      "age_days": 38,
+      "updated_at": "2026-10-01T00:00:00Z",
+      "sha": "4ec5d3d39e5ca3e03aaa905f661424b26e1687ac",
+      "source_branch": "fix/pod-bay-doors",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/weyland/nostromo-autopilot/-/merge_requests/19",
+      "merge_status": "mergeable",
+      "has_conflicts": false,
+      "merge_method": "ff",
+      "pipeline": {
+        "status": "failed",
+        "url": "https://gitlab.example.com/weyland/nostromo-autopilot/-/pipelines/9019"
+      },
+      "files_changed": 3,
+      "user_notes_count": 6,
+      "renovate": null,
+      "audit": null,
+      "audit_state": "none",
+      "session": null,
+      "reviewers": [],
+      "last_note": {
+        "author": "hal9000",
+        "at": "2026-10-01T12:00:00Z"
+      },
+      "can": {
+        "rebase": false,
+        "merge": false,
+        "renovate_rebase": false,
+        "reason": "Colleague's MR, read only",
+        "rebase_reason": "Colleague's MR, read only"
+      },
+      "trivial": {
+        "in_batch": false,
+        "miss": "colleague's MR"
+      }
+    },
+    {
+      "ref": "aperture/portal-gun!43",
+      "project": "aperture/portal-gun",
+      "project_id": 101,
+      "iid": 43,
+      "title": "feat: weighted companion cube support",
+      "full_title": "feat: weighted companion cube support",
+      "author": "glados",
+      "owner": "other",
+      "draft": false,
+      "created_at": "2026-10-21T10:00:00Z",
+      "age_days": 2,
+      "updated_at": "2026-10-23T08:00:00Z",
+      "sha": "dbad48fba0304eaeffe60c833da93537e77f4a40",
+      "source_branch": "feat/companion-cube",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/aperture/portal-gun/-/merge_requests/43",
+      "merge_status": "mergeable",
+      "has_conflicts": false,
+      "merge_method": "ff",
+      "pipeline": {
+        "status": "success",
+        "url": "https://gitlab.example.com/aperture/portal-gun/-/pipelines/9043"
+      },
+      "files_changed": 9,
+      "user_notes_count": 4,
+      "renovate": null,
+      "audit": null,
+      "audit_state": "none",
+      "session": null,
+      "reviewers": [
+        "ripley"
+      ],
+      "last_note": {
+        "author": "glados",
+        "at": "2026-10-23T08:00:00Z"
+      },
+      "can": {
+        "rebase": false,
+        "merge": false,
+        "renovate_rebase": false,
+        "reason": "Colleague's MR, read only",
+        "rebase_reason": "Colleague's MR, read only"
+      },
+      "trivial": {
+        "in_batch": false,
+        "miss": "colleague's MR"
+      }
+    },
+    {
+      "ref": "weyland/nostromo-autopilot!21",
+      "project": "weyland/nostromo-autopilot",
+      "project_id": 102,
+      "iid": 21,
+      "title": "feat: add the hypersleep scheduler",
+      "full_title": "Draft: feat: add the hypersleep scheduler",
+      "author": "ripley",
+      "owner": "self",
+      "draft": true,
+      "created_at": "2026-10-16T13:00:00Z",
+      "age_days": 6,
+      "updated_at": "2026-10-20T00:00:00Z",
+      "sha": "c4056b24ca7dc6a00072a541377f2d3a08c87101",
+      "source_branch": "feat/hypersleep-scheduler",
+      "target_branch": "main",
+      "web_url": "https://gitlab.example.com/weyland/nostromo-autopilot/-/merge_requests/21",
+      "merge_status": "draft_status",
+      "has_conflicts": false,
+      "merge_method": "ff",
+      "pipeline": {
+        "status": "success",
+        "url": "https://gitlab.example.com/weyland/nostromo-autopilot/-/pipelines/9021"
+      },
+      "files_changed": 14,
+      "user_notes_count": 0,
+      "renovate": null,
+      "audit": null,
+      "audit_state": "none",
+      "session": {
+        "id": "20261016_131500_d4e5f6",
+        "profile": "default",
+        "title": "Sketch the hypersleep scheduler",
+        "score": 41
+      },
+      "reviewers": [],
+      "last_note": null,
+      "can": {
+        "rebase": false,
+        "merge": false,
+        "renovate_rebase": false,
+        "reason": "Draft",
+        "rebase_reason": "Draft"
+      },
+      "trivial": {
+        "in_batch": false,
+        "miss": "draft"
+      }
+    }
+  ],
+  "timing": {
+    "ms": 412,
+    "full": true,
+    "projects_scanned": 4,
+    "details_fetched": 12,
+    "glab_calls": 41,
+    "items": 12
+  }
+}

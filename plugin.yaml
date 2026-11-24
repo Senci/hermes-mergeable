@@ -1,5 +1,5 @@
 name: mergeable
-version: "0.1.0"
+version: "0.1.1"
 manifest_version: 2
 description: Open GitLab merge requests of this profile's projects in Hermes Desktop, with rebase and merge actions, Renovate audits and a trivial batch.
 author: Senad Ličina

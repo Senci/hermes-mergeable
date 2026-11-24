@@ -1,5 +1,7 @@
 # Mergeable for Hermes
 
+![Mergeable](docs/assets/cover.jpg)
+
 Your open GitLab merge requests in one place, inside Hermes Desktop: a tab stacked with Files, a
 full page, rebase and merge behind a confirm dialog, a trivial batch, and a rating of every
 Renovate bump (what it fixes, how hard it is to merge, merge or hold).

@@ -3,8 +3,8 @@
 import { Badge, Button, Codicon, EmptyState, ErrorState, Loader } from '@hermes/plugin-sdk'
 import { createElement as h, Fragment, useEffect, useMemo, useState } from 'react'
 
-import { Table, cell } from './kit/table.js'
-import { createRoute } from './kit/route.js'
+import { Table, cell } from 'hermes-plugin-ui-kit/table.js'
+import { createRoute } from 'hermes-plugin-ui-kit/route.js'
 
 import { openExternal, reveal, useMrs, postMr } from './data.js'
 import { auditOf, fmtClock, fmtUtc, plural, refLabel, sessionKind, summarize, tableItems } from './logic.js'

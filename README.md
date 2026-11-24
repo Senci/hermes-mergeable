@@ -60,8 +60,8 @@ sidebar row **Mergeable**, or the command palette entry "Show Mergeable". Step b
 
 ## Development
 
-`desktop/plugin.js` is built from `desktop/src/` and its own UI kit copy in `desktop/src/kit/` (`sh scripts/rebuild.sh`
-in this directory, esbuild 0.28.2) and committed.
+`desktop/plugin.js` is built from `desktop/src/` and the [hermes-plugin-ui-kit](https://www.npmjs.com/package/hermes-plugin-ui-kit) package (`sh scripts/rebuild.sh`
+in this directory installs both into the gitignored `.build/`; esbuild 0.28.2) and committed.
 
 ```sh
 python3 -m unittest discover -s plugins/mergeable/tests -v   # backend

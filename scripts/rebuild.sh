@@ -1,22 +1,24 @@
 #!/bin/sh
-# Pinned esbuild goes into a cache dir outside the plugin tree, so the plugin never carries a package.json.
-# Usage: sh scripts/rebuild.sh (needs node and npm; MERGEABLE_BUILD_DIR overrides the cache dir)
+# Pinned esbuild and hermes-plugin-ui-kit go into .build/ (gitignored), so the plugin root never carries a
+# package.json: Hermes would offer an npm install for it on every plugin install.
+# Usage: sh scripts/rebuild.sh (needs node and npm)
 set -eu
 
 here=$(cd "$(dirname "$0")" && pwd)
-cache=${MERGEABLE_BUILD_DIR:-${XDG_CACHE_HOME:-$HOME/.cache}/mergeable-build}
+build=$(dirname "$here")/.build
 
-mkdir -p "$cache"
-cat > "$cache/package.json" <<'JSON'
+mkdir -p "$build"
+cat > "$build/package.json" <<'JSON'
 {
-  "name": "mergeable-build",
+  "name": "plugin-build",
   "private": true,
   "devDependencies": {
-    "esbuild": "0.28.2"
+    "esbuild": "0.28.2",
+    "hermes-plugin-ui-kit": "0.1.0"
   }
 }
 JSON
-cp "$here/esbuild-lock.json" "$cache/package-lock.json"
-(cd "$cache" && npm ci --ignore-scripts --no-audit --no-fund)
+cp "$here/build-lock.json" "$build/package-lock.json"
+(cd "$build" && npm ci --ignore-scripts --no-audit --no-fund)
 
-ESBUILD_DIR=$cache node "$here/build.mjs"
+ESBUILD_DIR=$build node "$here/build.mjs"

@@ -11,7 +11,7 @@ import { KEYBINDS_AREA, PALETTE_AREA, PANES_AREA, ROUTES_AREA, SIDEBAR_NAV_AREA 
 import * as sdk from '@hermes/plugin-sdk'
 import { createElement as h } from 'react'
 
-import { mountStyle } from './kit/theme.js'
+import { mountStyle } from 'hermes-plugin-ui-kit/theme.js'
 
 import { CSS } from './css.js'
 import { reveal } from './data.js'

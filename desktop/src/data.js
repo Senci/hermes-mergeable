@@ -5,7 +5,7 @@
 import { host, queryClient, useValue } from '@hermes/plugin-sdk'
 import { useRef } from 'react'
 
-import { useBackend, useLiveQuery } from './kit/live.js'
+import { useBackend, useLiveQuery } from 'hermes-plugin-ui-kit/live.js'
 
 import { isDone, pollMs, sessionKind, statusMarkdown } from './logic.js'
 import { ID, JOB_POLL_MS, PATH, STALE_MS, WRITE_PATH } from './model.js'

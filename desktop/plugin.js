@@ -3,7 +3,7 @@ import { KEYBINDS_AREA, PALETTE_AREA, PANES_AREA, ROUTES_AREA, SIDEBAR_NAV_AREA 
 import * as sdk2 from "@hermes/plugin-sdk";
 import { createElement as h6 } from "react";
 
-// desktop/src/kit/theme.js
+// .build/node_modules/hermes-plugin-ui-kit/src/theme.js
 var ui = (name) => `var(--ui-${name})`;
 var TONE = {
   text: ui("text-primary"),
@@ -120,7 +120,7 @@ var CSS2 = `
 import { host as host2, queryClient as queryClient2, useValue as useValue2 } from "@hermes/plugin-sdk";
 import { useRef } from "react";
 
-// desktop/src/kit/live.js
+// .build/node_modules/hermes-plugin-ui-kit/src/live.js
 import { atom, host, queryClient, useQuery, useValue } from "@hermes/plugin-sdk";
 var POLL_FLOOR_MS = 15e3;
 var LIVE_SAFETY_MS = 6e4;
@@ -843,7 +843,7 @@ function useNotifier(q) {
 import { Badge as Badge2, Button as Button2, Codicon as Codicon2, EmptyState as EmptyState2, ErrorState, Loader } from "@hermes/plugin-sdk";
 import { createElement as h3, Fragment as Fragment2, useEffect as useEffect3, useMemo, useState as useState2 } from "react";
 
-// desktop/src/kit/table.js
+// .build/node_modules/hermes-plugin-ui-kit/src/table.js
 import { EmptyState } from "@hermes/plugin-sdk";
 import { createElement as h } from "react";
 var cell = { padding: "6px 8px", verticalAlign: "top", borderTop: `1px solid var(--ui-stroke-tertiary, var(--border))` };
@@ -861,7 +861,7 @@ function Table({ columns, rows, renderRow, empty, fontSize = 13 }) {
   );
 }
 
-// desktop/src/kit/route.js
+// .build/node_modules/hermes-plugin-ui-kit/src/route.js
 function createRoute(path, { select, params }) {
   const split = () => window.location.hash.replace(/^#/, "").split("?");
   const on = () => (window.location.hash || "").replace(/^#/, "").split("?")[0] === path;

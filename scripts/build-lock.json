@@ -1,12 +1,13 @@
 {
-  "name": "logbuch-build",
+  "name": "plugin-build",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
-      "name": "logbuch-build",
+      "name": "plugin-build",
       "devDependencies": {
-        "esbuild": "0.28.2"
+        "esbuild": "0.28.2",
+        "hermes-plugin-ui-kit": "0.1.0"
       }
     },
     "node_modules/@esbuild/aix-ppc64": {
@@ -491,6 +492,21 @@
         "@esbuild/win32-arm64": "0.28.2",
         "@esbuild/win32-ia32": "0.28.2",
         "@esbuild/win32-x64": "0.28.2"
+      }
+    },
+    "node_modules/hermes-plugin-ui-kit": {
+      "version": "0.1.0",
+      "resolved": "https://registry.npmjs.org/hermes-plugin-ui-kit/-/hermes-plugin-ui-kit-0.1.0.tgz",
+      "integrity": "sha512-7krB+qZcfFryW0YY5c34Oo/0kI6hXClos8zIwgoFKJVaPbYDznN3ftXRZHAe1oxoVveBwvonGfKSBIiRfsvBBQ==",
+      "dev": true,
+      "license": "MIT",
+      "peerDependencies": {
+        "react": ">=18"
+      },
+      "peerDependenciesMeta": {
+        "react": {
+          "optional": true
+        }
       }
     }
   }

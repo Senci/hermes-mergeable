@@ -3,7 +3,7 @@
   "label": "Mergeable",
   "description": "Open merge requests across your GitLab projects",
   "icon": "GitMerge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "tab": { "path": "/mergeable", "hidden": true },
   "api": "plugin_api.py"
 }

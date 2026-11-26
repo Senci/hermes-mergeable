@@ -3,9 +3,8 @@
 // through ctx.rest. Writes go through the backend behind an SDK ConfirmDialog (merge, trivial batch);
 // nothing here writes chat text, and MR titles are third-party data that never reach the chat input.
 //
-// Source of desktop/plugin.js. Build: `npm ci && npm run build` at the repo root (esbuild, one
-// file, SDK and react external). Every named import from '@hermes/plugin-sdk' must exist in the
-// host SDK at the oldest supported Hermes (tools/build/sdk-exports.mjs checks it).
+// Source of desktop/plugin.js. Build: `sh scripts/rebuild.sh` (esbuild, one file, SDK and react external). Every
+// named import from '@hermes/plugin-sdk' must exist in the SDK of the oldest supported Hermes (v2026.9.24).
 
 import { KEYBINDS_AREA, PALETTE_AREA, PANES_AREA, ROUTES_AREA, SIDEBAR_NAV_AREA } from '@hermes/plugin-sdk'
 import * as sdk from '@hermes/plugin-sdk'
